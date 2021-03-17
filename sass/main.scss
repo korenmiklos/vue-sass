@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
+.btn {
+    @apply inline-block px-5 py-3 bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 transform hover:-translate-y-0.5 transition focus:outline-none text-white rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm;
+}
 @tailwind utilities;
